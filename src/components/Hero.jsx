@@ -198,7 +198,7 @@ const Hero = () => {
               }}
             >
               <img
-                src="/portfolio/static/pic.jpg"
+                src="/pic.jpg"
                 alt="Divya Nayan - AI/ML Engineer"
                 className="profile-img"
               />
