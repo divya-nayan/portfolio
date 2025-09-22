@@ -117,7 +117,7 @@ const Hero = () => {
             variants={itemVariants}
           >
             <motion.a
-              href="/portfolio/static/DivyaNayan_AIML_Engineer.pdf"
+              href="/portfolio/DivyaNayan_AIML_Engineer.pdf"
               download
               className="btn btn-primary"
               whileHover={{ scale: 1.05, y: -2 }}
@@ -198,7 +198,7 @@ const Hero = () => {
               }}
             >
               <img
-                src="/pic.jpg"
+                src="/portfolio/pic.jpg"
                 alt="Divya Nayan - AI/ML Engineer"
                 className="profile-img"
               />

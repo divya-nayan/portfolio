@@ -76,7 +76,7 @@ const Contact = () => {
             </div>
 
             <div className="contact-cta">
-              <a href="/portfolio/static/DivyaNayan_AIML_Engineer.pdf" download className="btn btn-primary">
+              <a href="/portfolio/DivyaNayan_AIML_Engineer.pdf" download className="btn btn-primary">
                 <Download size={20} /> Download Resume
               </a>
             </div>
