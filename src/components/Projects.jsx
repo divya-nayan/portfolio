@@ -50,7 +50,7 @@ const Projects = () => {
       tech: ['Python', 'AI', 'Static Analysis', 'ML', 'Code Quality'],
       github: 'https://github.com/divya-nayan/Code-Review',
       demo: '#',
-      featured: false,
+      featured: true,
       category: 'AI/ML'
     },
     {
