@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Github, ExternalLink, Bot, Heart, MessageSquare, TrendingUp, Image, Shield, Brain, Database, BarChart3, Award, Star, Eye } from 'lucide-react'
+import { Github, ExternalLink, Bot, Heart, MessageSquare, TrendingUp, Image, Shield, Brain, Database, BarChart3, Award, Star, Eye, Code } from 'lucide-react'
 
 const Projects = () => {
   const featuredProjects = [
@@ -39,6 +39,16 @@ const Projects = () => {
       description: 'Comprehensive NLP project with sentiment analysis, text generation, POS tagging, and advanced language understanding capabilities.',
       tech: ['Jupyter', 'NLTK', 'spaCy', 'Transformers', 'Deep Learning'],
       github: 'https://github.com/divya-nayan/Natural-Language-Processing',
+      demo: '#',
+      featured: false,
+      category: 'AI/ML'
+    },
+    {
+      icon: <Code size={50} />,
+      title: 'AI Code Review',
+      description: 'Intelligent code review system leveraging AI to analyze code quality, detect bugs, suggest improvements, and enforce best practices automatically.',
+      tech: ['Python', 'AI', 'Static Analysis', 'ML', 'Code Quality'],
+      github: 'https://github.com/divya-nayan/Code-Review',
       demo: '#',
       featured: false,
       category: 'AI/ML'
